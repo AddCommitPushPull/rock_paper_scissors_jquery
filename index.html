@@ -1,5 +1,32 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
-    
+    <div id="wrapper">
+      <div id="options">
+        <h1 id="title"></h1>
+        <h2>Try to win</h2>
+        <p id="rockDesc"></p>
+        <p id="paperDesc"></p>
+        <p id="scissorsDesc"></p>
+        <select id=choices>
+          <option value="rock">Geodude</option>
+          <option value="paper">Bill</option>
+          <option value="scissors">Scissors</option>
+        </select>
+      </div>
+      <div id="finalSelection">
+        <h1>Selection</h1>
+        <hr />
+        <ul id="in_selection">
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
+
+

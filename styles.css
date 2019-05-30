@@ -1,0 +1,29 @@
+p {
+  color: black;
+  flex: 1;
+}
+
+* {
+  font-size: 100%;
+  font-family: Helvetica;
+ }
+
+body {
+  background-color: gray;
+  flex: 1;
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden
+}
+
+#options {
+  width: 50%;
+  float: left;
+  border-right: solid 1px black;
+}
+
+#finalSelection {
+  margin-left: 51%;
+}
