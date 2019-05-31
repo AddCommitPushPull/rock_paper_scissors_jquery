@@ -1,9 +1,9 @@
 $(document).ready( function() {
-  var header = $('h1').text("Scissors, Rock, Paper")
-  $('#title').text('Rock, Paper, Scissors')
+  var header = $('h1').text("BATTLE RESULTS")
+  $('#title').text('CHOOSE YOUR CHAMPION')
   $('#rockDesc').text("***Geodude crushes Scissors with his hands***")
   $('#paperDesc').text("***Bill surrounds Geodude with legislation***")
-  $('#scissorsDesc').text("***Scissors vetos Bill's power***")
+  $('#scissorsDesc').text("***Scissors veto Bill's power***")
 
 
   $('#choices').on('change', function() {
@@ -22,5 +22,7 @@ $(document).ready( function() {
     }
 
     $('#selection').text(choiceText)
+
+    var choices["rock", "paper", "scissors]
   });
 })

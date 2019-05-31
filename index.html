@@ -2,14 +2,19 @@
   <head>
     <link rel="stylesheet" href="styles.css" />
   </head>
+  <title>
+    ROCK-PAPER-SCISSORS
+  </title>
   <body>
     <div id="wrapper">
       <div id="options">
         <h1 id="title"></h1>
-        <h2>Try to win</h2>
         <p id="rockDesc"></p>
+        <img src="geodude.png" alt="ROCK" height="150" width="150">
         <p id="paperDesc"></p>
+        <img src="bill.png" alt=" PAPER" height="150" width="150">
         <p id="scissorsDesc"></p>
+        <img src="scissors.png" alt="SCISSORS" height="150" width="150">
         <select id=choices>
           <option value="rock">Geodude</option>
           <option value="paper">Bill</option>
@@ -23,6 +28,9 @@
         </ul>
       </div>
     </div>
+
+    </select>
+    <button id="pick">FIGHT</button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="main.js"></script>
